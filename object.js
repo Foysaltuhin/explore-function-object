@@ -1,14 +1,13 @@
-// function getReminder(number1, number2) {
-//     number1 % number2;
-// }
-
-// const reminder = getReminder(12, 2);
-
-// console.log(reminder);
-
-
-function addNumber(number1, number2) {
-    return "Result is " + number1 + number2;
+var student = {
+    id: 115,
+    name: 'abir adnan',
+    marks: 81,
+    phone: 5647852
 }
 
-var result = addNumber(5, 4);
+var mobile = {
+    color: 'Red',
+    Price: 32999,
+    ScreenSize: 5,
+    storage: '16gb'
+};
