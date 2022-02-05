@@ -15,11 +15,18 @@
 
 // }
 
-var numbers = [34, 45, 90, 13, 101, 08, 54, 39];
+var numbers = [34, 45, 90, 95, 101, 08, 54, 39];
+// for (var i = 0; i < numbers.length; i++) {
+//     var number = numbers[i];
+//     console.log(number);
+//     if (number > 12) {
+//         break;
+//     }
+// }
+
 for (var i = 0; i < numbers.length; i++) {
     var number = numbers[i];
-    console.log(number);
-    if (number > 12) {
-        break;
+    if (number > 90) {
+        continue;
     }
 }
