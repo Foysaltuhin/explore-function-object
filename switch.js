@@ -15,6 +15,25 @@ else if (color == 'whit') {
 else if (color == 'yellow') {
     console.log('color is yellow');
 }
-else (
-    console.log('color is black')
-)
+else {
+    console.log('color is black');
+}
+
+switch (color) {
+    case 'blue':
+        console.log('color is blue');
+        break;
+    case 'red':
+        console.log('color is red');
+        break;
+    case 'green':
+        console.log('color is green');
+        break;
+    case 'whitre':
+        console.log('color is white');
+    case 'yellow':
+        console.log('color is yellow');
+        break;
+    default:
+        console.log('color is black');
+}
